@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  gap: 20px;
+  background-color: #010000;
+  padding: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  padding: 10px;
+  border: 5px solid navy;
+  margin: 15px;
+}
+.image-container {
+  background: #eee;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+h2 {
+  color: white;
+  font-size: 32px;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.cookie-notice {
+  background: #eee;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
